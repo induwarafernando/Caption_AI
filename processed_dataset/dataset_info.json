@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "instagram_captions",
+  "dataset_size": 3390876,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/prakhars/instagram_captions@1499e8bffc01f343e703fb4b6990d43a26d6a698/data/train-00000-of-00001-2a7ccee7865ab495.parquet": {
+      "num_bytes": 1908205,
+      "checksum": null
+    }
+  },
+  "download_size": 1908205,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int8",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 5299081,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3390876,
+      "num_examples": 14087,
+      "dataset_name": "instagram_captions"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
